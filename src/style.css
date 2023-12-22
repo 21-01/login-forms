@@ -1,3 +1,30 @@
-*{
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+form#registerForm {
+    box-shadow: 8px 8px 16px -8px;
+    width: 256px;
+    display: flex;
+    border: 1px black solid;
+    background-color: azure;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+form#registerForm > *{
+    text-align: left;
+    width: 256px;
 }
