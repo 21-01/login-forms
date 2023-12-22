@@ -27,4 +27,15 @@ form#registerForm {
 form#registerForm > *{
     text-align: left;
     width: 256px;
+    border-radius: 8px;
+}
+
+input:valid,
+select:valid{
+    border: 1px solid green;
+}
+
+input:invalid,
+select:invalid{
+    border: 1px solid red;
 }
